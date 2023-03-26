@@ -14,6 +14,16 @@ Applikasjonen er skrevet i HTML, CSS og Javascript.
 
 Kodingen av dette prosjektet forutsetter at du har en god forståelse for HTML og CSS, samt mestrer å skrive noe kode i Javascript.
 
+## Endepunkter for API'et
+
+| HTTP Method | URL                                    | Description      |
+| ----------- | -------------------------------------- | ---------------- |
+| `POST`      | http://92.220.233.201:8080/pets        | Create new Pet   |
+| `GET`       | http://92.220.233.201:8080/pets        | Get all Pets     |
+| `GET`       | http://92.220.233.201:8080/pet/{id}    | Get Pet by ID    |
+| `PUT`       | http://92.220.233.201:8080/update/{id} | Update Pet by ID |
+| `DEL`       | http://92.220.233.201:8080/pet/{id}    | Delete Pet by ID |
+
 ## Problemer?
 
 Legg igjen en issue på github.
