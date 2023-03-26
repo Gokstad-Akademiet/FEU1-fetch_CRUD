@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 30px;
+	height: 100vh;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+.flex {
+	display: flex;
+	gap: 50px;
+	flex-direction: column;
+}
+
+#remove-btn {
+	color: red;
+	cursor: pointer;
+}
+
+#edit-btn {
+	color: blue;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+thead {
+	border: 1px solid black;
+}
+
+th,
+td {
+	border: 1px dotted grey;
+	min-width: 30px;
+	padding: 5px;
+}
