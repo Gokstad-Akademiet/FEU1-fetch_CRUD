@@ -18,11 +18,11 @@ Kodingen av dette prosjektet forutsetter at du har en god forståelse for HTML o
 
 | HTTP Method | URL                                    | Description      |
 | ----------- | -------------------------------------- | ---------------- |
-| `POST`      | http://92.220.233.201:8080/pet         | Create new Pet   |
-| `GET`       | http://92.220.233.201:8080/pets        | Get all Pets     |
-| `GET`       | http://92.220.233.201:8080/pet/{id}    | Get Pet by ID    |
-| `PUT`       | http://92.220.233.201:8080/update/{id} | Update Pet by ID |
-| `DEL`       | http://92.220.233.201:8080/pet/{id}    | Delete Pet by ID |
+| `POST`      | http://92.220.233.201:3398/pet         | Create new Pet   |
+| `GET`       | http://92.220.233.201:3398/pets        | Get all Pets     |
+| `GET`       | http://92.220.233.201:3398/pet/{id}    | Get Pet by ID    |
+| `PUT`       | http://92.220.233.201:3398/update/{id} | Update Pet by ID |
+| `DEL`       | http://92.220.233.201:3398/pet/{id}    | Delete Pet by ID |
 
 ## Problemer?
 
