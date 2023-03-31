@@ -54,8 +54,8 @@ async function getPets() {
 					<div id="click-container" onclick="window.location='/pet.html?id=${pet.petID}'">
 						<h2>${pet.petname}</h2>
 						<p>${pet.petage} år</p>
-						<span>Eier: ${pet.ownername}</span>
-						<span>${pet.species}</span>
+						<p>Eier: ${pet.ownername}</p>
+						<p>${pet.species.toUpperCase()}</p>
 					</div>
 					<span id="remove-btn" onclick="deletePet(${pet.petID})">Remove</span>
                 </div>    
